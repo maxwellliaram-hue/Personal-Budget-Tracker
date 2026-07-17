@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Budget Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <img src="https://cdn-icons-png.flaticon.com/512/3135/3135706.png"
+         alt="Budget Tracker Logo"
+         width="80">
+
+    <h1>My Budget Tracker</h1>
+    <p>Track your daily expenses and manage your money wisely.</p>
+</header>
+
+<section class="add-expense-section">
+
+    <h2>Add Expense</h2>
+
+    <form>
+
+        <label for="expense-name">Expense Name</label>
+        <input
+            type="text"
+            id="expense-name"
+            placeholder="Enter expense name">
+
+        <label for="expense-amount">Amount</label>
+        <input
+            type="number"
+            id="expense-amount"
+            placeholder="Enter amount">
+
+        <label for="expense-category">Category</label>
+
+        <select id="expense-category">
+
+            <option>Food</option>
+            <option>Transport</option>
+            <option>Rent</option>
+            <option>Entertainment</option>
+            <option>Other</option>
+
+        </select>
+
+        <label for="expense-date">Date</label>
+        <input
+            type="date"
+            id="expense-date">
+
+        <button type="button">Add Expense</button>
+
+    </form>
+
+</section>
+
+<section class="expenses-section">
+
+<h2>Expense List</h2>
+
+<table>
+
+    <thead>
+
+        <tr>
+            <th>Name</th>
+            <th>Amount</th>
+            <th>Category</th>
+            <th>Date</th>
+        </tr>
+
+    </thead>
+
+    <tbody>
+
+        <tr>
+            <td>Lunch</td>
+            <td>KSh 450</td>
+            <td>Food</td>
+            <td>10/07/2026</td>
+        </tr>
+
+        <tr>
+            <td>Bus Fare</td>
+            <td>KSh 120</td>
+            <td>Transport</td>
+            <td>11/07/2026</td>
+        </tr>
+
+        <tr>
+            <td>Netflix</td>
+            <td>KSh 700</td>
+            <td>Entertainment</td>
+            <td>12/07/2026</td>
+        </tr>
+
+        <tr>
+            <td>House Rent</td>
+            <td>KSh 15000</td>
+            <td>Rent</td>
+            <td>01/07/2026</td>
+        </tr>
+
+        <tr>
+            <td>Snacks</td>
+            <td>KSh 250</td>
+            <td>Food</td>
+            <td>13/07/2026</td>
+        </tr>
+
+    </tbody>
+
+</table>
+
+</section>
+
+<section>
+
+<details>
+
+<summary>How to use this tracker</summary>
+
+<p>
+
+Enter your expense information in the form above.
+Choose the correct category and click the Add Expense
+button. In future weeks, JavaScript will automatically
+save and display new expenses.
+
+</p>
+
+</details>
+
+</section>
+
+<section>
+
+<h2>Budgeting Tips</h2>
+
+<iframe
+width="560"
+height="315"
+src="https://www.youtube.com/embed/HQzoZfc3GwQ"
+title="Budgeting Tips"
+frameborder="0"
+allowfullscreen>
+</iframe>
+
+</section>
+
+</body>
+</html>
